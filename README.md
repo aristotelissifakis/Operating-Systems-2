@@ -5,6 +5,6 @@ Try running your program for large and very large 'n' (using for input correspon
 
 - The second file does the following:
 Write a program in C, which will use the POSIX Threads library, and will result in the sequence being printed iteratively:
-/What A Wonderful World! What A Wonderful World! What A Wonderful World! .../ 
+"What A Wonderful World! What A Wonderful World! What A Wonderful World! ..."
 To achieve the above you will need to start three (3) different threads in your program (one printing "What A ", one printing "Wonderful " and the third printing "World! "), and then properly synchronize them together using POSIX semaphores), and then synchronize them appropriately using POSIX semaphores.
 Then try to provide (not necessarily required) an alternative version of your program using condition variables for the required synchronization
